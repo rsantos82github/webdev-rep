@@ -30,7 +30,7 @@ div {
 	height: 150px;
 	margin: 20px;
 	margin-bottom: 5px; 
-	overflow: auto;
+	overflow: hidden;
 
 }
 
