@@ -1,0 +1,105 @@
+/*Ricardo Santos*/
+* {
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 0;
+    padding: 0;
+}
+
+div {
+	position: relative; 
+}
+
+
+.mainHeading {
+
+	font-size: 200%;
+	font-weight: bold; 
+	color: #008B45;
+	text-align: center;  
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	
+
+}
+
+.box {
+	border: 1px solid black;
+	border-radius: 4px; 
+	background: lightgrey; 
+	height: 150px;
+	margin: 20px;
+	margin-bottom: 5px; 
+	overflow: auto;
+
+}
+
+.section-header {
+	width: 33.33%;
+	border-radius: 4px;
+	border-bottom: 1px solid black; 
+	border-left: 1px solid black;
+	text-align: center; 
+	background-color: aqua;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.section-content {
+	padding-top: 30px;
+	padding-left: 10px; 
+	padding-right: 10px;
+	padding-bottom: 5px; 
+	clear: both;
+}
+/*Each section header background colors*/
+#sh-1 { 
+	background-color: #FF6347;
+}
+
+#sh-2 {
+	background-color: #FFEC8B;
+}
+
+#sh-3 {
+	background-color: #836FFF;
+}
+
+
+/*Responsive content*/
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float:left; 
+		width: 33.33%;
+		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6, .col-md-12{
+		float:left; 
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12{
+		float:left; 
+		width: 100%;
+	}
+
+	.box {
+		height: auto; 
+	}
+}
+
+
+
+
